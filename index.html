@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daily Notes</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+  </head>
+  <body>
+    <h1 class="text-title">To dose</h1>
+    <div class="container">
+      <div id="note-input-area" class="note-input">
+        <h1>{ title work }</h1>
+        <input type="text" id="note-title" placeholder="Note Title" />
+        <input type="text" id="new-task" placeholder="Add a new task" />
+        <button id="add-task-button">Add text</button>
+      </div>
+      <div id="note-container">
+        <ul id="task-list"></ul>
+      </div>
+      <div>
+        <h1 class="text2">توضیحات لیست کاری</h1>
+        <form>
+          <textarea
+            id="description"
+            name="description"
+            rows="3"
+            cols="50"
+            placeholder="Please write your description here...."
+          ></textarea>
+          <br />
+          <input class="clike" type="submit" value="ارسال" />
+          <input class="clike" type="button" value=" حذف" />
+          <input class="clike" type="button" value="ویرایش" />
+        </form>
+      </div>
+    </div>
+    <script src="./scriop.js"></script>
+  </body>
+</html>
